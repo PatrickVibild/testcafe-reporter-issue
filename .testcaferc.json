@@ -1,0 +1,35 @@
+{
+  "reporter": [
+    {
+      "name": "slack-custom",
+      "options": {
+        "webhookUrl": "https://hooks.slack.com/services/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",
+        "loggingLevel": "SUMMARY_WITH_ERRORS",
+        "alertChannelOnError": true
+      }
+    }
+  ],
+  "browsers": "chrome",
+  "src": [
+    "src"
+  ],
+  "quarantineMode": false,
+  "debugMode": false,
+  "debugOnFail": false,
+  "stopOnFirstFail": false,
+  "skipJsErrors": true,
+  "skipUncaughtErrors": true,
+  "appInitDelay": 3000,
+  "concurrency": 1,
+  "selectorTimeout": 10000,
+  "assertionTimeout": 3000,
+  "pageLoadTimeout": 3000,
+  "speed": 1,
+  "port1": 1337,
+  "port2": 1338,
+  "disablePageCaching": false,
+  "developmentMode": false,
+  "qrCode": false,
+  "selector-timeout": 20000,
+  "disableMultipleWindows": true
+}
