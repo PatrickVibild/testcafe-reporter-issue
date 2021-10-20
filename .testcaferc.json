@@ -1,12 +1,7 @@
 {
   "reporter": [
     {
-      "name": "slack-custom",
-      "options": {
-        "webhookUrl": "https://hooks.slack.com/services/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",
-        "loggingLevel": "SUMMARY_WITH_ERRORS",
-        "alertChannelOnError": true
-      }
+      "name": "json"
     }
   ],
   "browsers": "chrome",

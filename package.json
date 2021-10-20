@@ -1,7 +1,4 @@
 {
-  "scripts": {
-    "test-uat": "testcafe --reporter slack-custom"
-  },
   "dependencies": {
     "testcafe-reporter-slack-custom": "^1.3.0",
     "testcafe-reporter-json": "^2.2.0"
